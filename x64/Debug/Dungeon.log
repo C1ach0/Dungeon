@@ -1,0 +1,34 @@
+﻿  Entity.cpp
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(8,27): error C2039: 'Drawable' n'est pas membre de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(3): message : voir la déclaration de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(8,35): error C2504: 'Drawable' : classe de base non définie
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(8,48): error C2039: 'Transformable' n'est pas membre de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(3): message : voir la déclaration de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(9,1): error C2504: 'Transformable' : classe de base non définie
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(25,9): error C2039: 'VertexArray' n'est pas membre de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(3): message : voir la déclaration de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(25,21): error C3646: 'm_vertices' : spécificateur de substitution inconnu
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(25,31): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(26,9): error C2039: 'Texture' n'est pas membre de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(3): message : voir la déclaration de 'sf'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(26,17): error C3646: 'm_texture' : spécificateur de substitution inconnu
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(26,26): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(11,15): error C2027: utilisation du type non défini 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(5): message : voir la déclaration de 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(14,1): error C2027: utilisation du type non défini 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(5): message : voir la déclaration de 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(14,29): error C3861: 'getTransform' : identificateur introuvable
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(17,1): error C2027: utilisation du type non défini 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(5): message : voir la déclaration de 'sf::RenderStates'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(17,27): error C2065: 'm_texture' : identificateur non déclaré
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(22,1): error C2027: utilisation du type non défini 'sf::RenderTarget'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(4): message : voir la déclaration de 'sf::RenderTarget'
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(22,21): error C2065: 'm_vertices' : identificateur non déclaré
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.cpp(4,14): error C2084: la fonction 'void Entity::draw(sf::RenderTarget &,sf::RenderStates) const' a déjà un corps
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Entity.h(11): message : voir la définition précédente de 'draw'
+  Main.cpp
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Main.cpp(13,50): warning C4244: 'argument' : conversion de 'const float' en 'unsigned int', perte possible de données
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Main.cpp(13,43): warning C4244: 'argument' : conversion de 'const float' en 'unsigned int', perte possible de données
+  Player.cpp
+C:\Users\clach\Documents\Visual Studio Code\C++\Dungeon\Dungeon\Player.cpp(21,26): warning C4305: 'argument' : troncation de 'double' à 'float'
+  Génération de code en cours...
